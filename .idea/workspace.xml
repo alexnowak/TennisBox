@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13faf9cc-43f4-4481-994a-b64c3a260bc9" name="Default" comment="" />
+    <list default="true" id="13faf9cc-43f4-4481-994a-b64c3a260bc9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/player.rb" afterPath="$PROJECT_DIR$/app/models/player.rb" />
+    </list>
     <ignored path="tennisbox.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +31,7 @@
       <file leaf-file-name="player.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/player.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="99" selection-start="134" selection-end="134" vertical-scroll-proportion="0.04920405">
+            <state line="12" column="97" selection-start="424" selection-end="424" vertical-scroll-proportion="0.45945945">
               <folding />
             </state>
           </provider>
@@ -106,6 +110,30 @@
   <component name="GeneratorOptions">
     <option name="VCS_SHOW_CONFIRMATION" value="true" />
   </component>
+  <component name="Git.Branch.Configurations">
+    <option name="CURRENT" value="master" />
+    <option name="CONFIGURATIONS">
+      <array>
+        <BranchConfiguration>
+          <option name="IS_AUTO_DETECTED" value="true" />
+          <option name="NAME" value="master" />
+          <option name="BRANCHES">
+            <array>
+              <BranchInfo>
+                <option name="ROOT" value="$PROJECT_DIR$" />
+                <option name="REFERENCE" value="master" />
+              </BranchInfo>
+            </array>
+          </option>
+        </BranchConfiguration>
+      </array>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="GIT_EXECUTABLE" value="C:\Program Files (x86)\Git\bin\git.exe" />
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -137,7 +165,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="RailsProjectView" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -149,7 +177,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="RailsProjectView">
         <subPane>
           <PATH>
@@ -157,10 +185,14 @@
               <option name="myItemId" value="tennisbox" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tennisbox" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -394,13 +426,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="53" width="1283" height="880" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32851407" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.670227" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41388518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43925235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -498,9 +530,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="32" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/players/new.html.erb">
@@ -525,7 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="99" selection-start="134" selection-end="134" vertical-scroll-proportion="0.04920405">
+        <state line="12" column="97" selection-start="424" selection-end="424" vertical-scroll-proportion="0.45945945">
           <folding />
         </state>
       </provider>

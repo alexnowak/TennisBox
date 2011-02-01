@@ -10,7 +10,7 @@ class Player < ActiveRecord::Base
   end
 
   # Validate email syntax.
-  # For now, an email is accepted if it has one @ and no special chars
+  # For now, an email is accepted if it has one @ and no special chars, like space or other stuff
   def valid_email?
     puts "email: '#{email}' split= #{email.split(/@/).size}"
     errors.add(:email,"Must be a valid email") if
